@@ -1,0 +1,765 @@
+body {
+    background-color: beige;
+}
+
+/* Pagina inicio */
+
+.conteinerInicio {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.imgn_titulo {
+    width: 230px;
+    height: 40px;
+}
+
+.conteinertituloYtexto {
+    display: block;
+    justify-content: center;
+    text-align: center;
+   
+}
+
+.tituloSobreNosotros {
+    font-size: 50px;
+    margin-top: 28px;
+}
+
+
+.textoSobreNosotros {
+    padding-top: 20px;
+    margin: 25px 25px;
+    
+}
+
+.video {
+    width: 650px;
+    height: 430px;
+    margin-right: 40px;
+    margin-top: 45px;
+    box-shadow: 2px 2px 5px rgb(127, 120, 120);
+}
+
+.img-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(7, 7, 7);
+    background-color: #03afff;
+    transition: transform 0.3s ease-in-out;
+}
+
+.img-item:hover {
+ filter: opacity(0.9);
+ transform: scale(1.04);
+}
+
+.conteiner_fundadores {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.img_fundadores {
+    width: 600px;
+    height: 430px;
+    margin-left: 40px;
+    margin-bottom: 23px;
+    border: 3px solid rgb(172, 123, 218);
+    border-radius: 10px;
+}
+
+.div_fundadores {
+    display: block;
+    text-align: center;
+    margin-right: 23px;
+    margin-top: 50px;
+}
+
+.titulo_fundadores {
+    font-size: 50px;
+}
+
+.texto_fundadores {
+    margin-right: 35px;
+}
+
+@media screen and (max-width: 780px) { 
+    .conteinerInicio {
+        display: block;
+        margin-top: 25px;
+    }
+
+    .video {
+        width: 440px;
+        height: 320px;
+        margin-right: 0px;
+        margin-left: 25px;
+        margin-top: 0px;
+    }
+
+    .tituloSobreNosotros {
+        font-size: 40px;
+
+    }
+
+    .imgn_titulo {
+        width: 150px;
+        height: 30px;
+        margin-bottom: 0px;
+    }
+
+    .textoSobreNosotros {
+       margin-top: 5px;
+       padding-top: 5px;
+        
+    }
+
+    .conteiner_fundadores {
+        display: flex;
+        text-align: center;
+        margin: 0px;
+        flex-direction: column-reverse;
+    }
+
+    .div_fundadores {
+        margin-top: 20px;
+    }
+
+    .img_fundadores {
+        width: 420px;
+        height: 260px;
+        margin:0px;
+        margin-bottom: 35px;
+    }
+
+    .titulo_fundadores {
+        font-size: 40px;
+        margin-left: 10px;
+
+    }
+    .texto_fundadores {
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-bottom: 35px;
+        margin-top: 20px;
+    }
+
+
+}
+
+/* Fin pagina de inicio */
+
+
+/* Pagina adoptar */
+.conteinerAdoptar {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.titulosAdoptar {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    font-size: 23px;
+    color: white;
+    box-shadow: 2px 2px 5px rgb(127, 120, 120);
+    background-color: rgb(172, 123, 218);
+}
+
+.texto_adoptar {
+    margin: 8px;
+    text-align: center;
+    margin-bottom: 45px;
+    margin-right: 100px;
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+
+.tituloAdoptar {
+    display: block;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+
+.img_titulo {
+    width: 280px;
+    height: 40px;
+}
+
+.cardAdoptar {
+    border: rgb(172, 123, 218)  3px solid;
+    margin: 30px;
+    border-radius: 5px;
+    background-color: rgb(225, 211, 238);
+    box-shadow: 2px 2px 5px rgb(127, 120, 120);
+}
+
+.btn-adoptar {
+    background-color: rgb(172, 123, 218);
+    color: white;
+    font-size: 20px;
+    width: 200px;
+    border-color: rgb(172, 123, 218) ;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 57px;
+}
+
+.img_card {
+    border-radius: 50%;
+    border: 2px solid rgb(172, 123, 218);
+    height: 240px;
+    width: 250px;
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+
+.btn-adoptar:hover {
+    background-color: rgb(172, 123, 218);
+    color: white;
+    border-color: rgb(172, 123, 218);
+}
+
+.cardAdoptar:hover {
+    filter: opacity(0.9);
+    transform: scale(1.04);
+   }
+
+@media screen and (max-width: 780px) {    
+
+    .conteinerAdoptar {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+
+    }
+
+    .texto_adoptar {
+        font-size: 15px;
+        padding-left: 25px;
+        padding-right: 25px;
+        margin: 0px;
+    }
+
+    .tituloAdoptar {
+        font-size: 15px;
+    }
+
+    .titulosAdoptar {
+        font-size: 17px;
+    }
+
+    .img_titulo {
+        width: 170px;
+        height: 35px;
+    }
+}
+
+
+/* Fin pagina adoptar */
+
+
+/* Pagina transitar */
+
+.Banner {
+background-image: url(../imagenes/backgroundTransitar.jpg) ;
+background-position: center;
+box-shadow: 2px 2px 5px rgb(127, 120, 120);
+background-repeat: no-repeat;
+background-size: 1450px 350px;
+height: 350px;
+color: white;
+font-size: 40px;
+}
+
+.tituloBanner {
+    margin-left: 60px;
+    padding-top: 100px;
+    font-size: 65px;
+}
+
+.contenidoPrincipal {
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.queEsTransitar {
+    font-size: 50px;
+}
+
+.textoTransitar {
+    margin-top: 10px;
+    margin-left: 130px;
+    margin-right: 130px;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.transitarF_conteiner {
+    display: flex;
+    justify-content: center;
+}
+
+.form_conteiner {
+    display: flex;
+    text-align: center;
+    width: 800px;
+    height: 835px;
+    border: 3px solid rgb(172, 123, 218);
+    background-color: rgb(228, 205, 228);
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 5px rgb(127, 120, 120);
+}
+
+.casillasForm {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    width: 370px;
+    height: 45px;
+    outline: none;
+    margin: 10px;
+}
+
+.casillasForm:focus{
+    border: 1px solid rgb(172, 123, 218);
+}
+
+.casillasLargas {
+    display: block;
+    border: none;
+}
+
+.casillaLarga:focus{
+    border: 1px solid rgb(172, 123, 218);
+}
+
+.casillaLarga {
+    width: 760px;
+    height: 45px;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    margin: 10px;
+
+}
+
+.textArea_transitar {
+    width: 760px;
+    border-radius: 10px;
+    outline: none;
+    height: 120px;
+}
+
+.textArea_transitar:focus{
+    border: 1x solid rgb(172, 123, 218);
+}
+
+.textArea_conteiner {
+    margin: 20px 20px;
+}
+
+.p_formulario {
+    font-size: 40px;
+    padding-top: 10px;
+}
+
+.form_preguntas {
+    text-align: left;
+    padding-left: 20px;
+    margin: 0px;
+}
+
+.pregunta_textArea {
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.btn_enviar {
+    background-color: rgb(172, 123, 218);
+    color: white;
+    width: 600px;
+    font-size: 20px;
+    border-color: rgb(172, 123, 218) ;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 8px;
+}
+
+
+@media(max-width:768px) {
+
+.Banner  {
+        background-image: url(../imagenes/backgroundTransitar.jpg);
+        background-size: 500px 150px;
+        height: 150px;
+        color: white;
+        font-size: 18px;
+        }
+
+.tituloBanner {
+        margin-left: 25px;
+        font-size: 25px;
+        padding-top: 48px;
+}
+
+.textoTransitar {
+    font-size: 15px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+        
+.transitarF_conteiner {
+    display: flex;
+    justify-content: center;
+}
+
+
+.p_formulario {
+    font-size: 25px;
+    padding: 10px;
+}
+
+.casillasForm {
+    width: 190px;
+}
+
+.casillaLarga {
+    width: 395px;
+}
+
+
+.textArea_transitar {
+    width: 395px;
+    border-radius: 10px;
+    outline: none;
+}
+
+.queEsTransitar {
+    font-size: 35px;
+}
+
+.btn_enviar {
+    width: 250px;
+}
+
+}
+
+
+
+/* Fin pagina transitar */
+
+
+
+
+/* Pagina tienda */
+
+.carousel-inner {
+    max-height: 28rem;
+    box-shadow: 2px 2px 5px rgb(127, 120, 120);
+}
+
+.carousel-descripcion {
+  position: absolute;
+  right: 0;
+  padding-top: 90px;
+  padding-right: 50px;
+  padding-left: 90px;
+  color: #fff;
+
+}
+
+.img_carousel {
+    width: 1370px;
+    height: 330px;
+}
+
+
+#opacidad {
+filter:brightness(0.7);
+}
+
+.tienda_titulo {
+    font-size: 80px;
+}
+
+.texto_carousel {
+    font-size: 20px;
+}
+
+
+.conteinerProductos{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.conteiner_titulos {
+    display: block;
+    justify-content: center;
+    margin-top: 40px;
+    text-align: center;
+
+} 
+
+.titulo_productos {
+    display: block;
+    justify-content: center;
+    font-size: 60px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.img_titulo{
+    width: 280px;
+    height: 45px;
+}
+
+.card {
+    border: rgb(172, 123, 218)  3px solid;
+    margin: 30px;
+    background-color: rgb(230, 221, 238);
+    box-shadow: 2px 2px 5px rgb(127, 120, 120);
+}
+
+.card:hover {
+    transform: scale(1.04);
+}
+
+.imagen_card {
+    padding: 6px;
+}
+
+.precio {
+    font-size: 22px;
+}
+
+
+.btn-color {
+    background-color: rgb(172, 123, 218);
+    color: white;
+    font-size: 20px;
+    border-color: rgb(172, 123, 218) ;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.btn-color:hover {
+    background-color: rgb(172, 123, 218);
+    color: white;
+    border-color: rgb(172, 123, 218);
+}
+
+
+
+@media(max-width:768px) {
+
+.conteinerProductos {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 70px;
+}
+
+.img_carousel {
+    width: 100%;
+    height: 160px;
+    }
+
+.tienda_titulo {
+    font-size: 35px;
+}
+
+.texto_carousel {
+    font-size: 14px;
+}
+
+.carousel-descripcion {
+    padding-top: 35px;
+    padding-left: 30px;
+  }
+
+.titulo_productos {
+    font-size: 45px;
+}
+
+.img_titulo{
+    width: 170px;
+    height: 40px;
+}
+
+
+}
+
+/* Fin pagina tienda */
+
+
+
+/* Donar */
+
+.div_transferencia {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+.conteiner_alias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: 40px;
+}
+
+
+.div_alias {
+    display: flex;
+    justify-content: center;
+    height: 90px;
+    width: 410px;
+    font-size: 30px;
+    align-items: center;
+    color: white;
+    border-radius: 30px;
+    background-color: rgb(172, 123, 218);
+    cursor:pointer;
+    box-shadow: 2px 2px 5px rgb(127, 120, 120);
+}
+
+.div_alias:hover {
+    transform: scale(1.04);
+}
+
+
+
+.texto_alias {
+    margin: 0px;
+}
+
+.casillas_donar{
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    width: 370px;
+    height: 45px;
+    outline: none;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+
+.casillas_donar:focus{
+    border:1px solid #cb47af;
+}
+
+
+.conteiner_gracias {
+    display: block;
+   text-align: center;
+   margin-top: 25px;
+}
+
+.texto_gracias {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.img_tituloG {
+    width: 290px;
+    height: 40px;
+    margin-top: 0px;
+}
+
+.conteiner_imagenes {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.img_gracias {
+    width: 380px;
+    height: 250px;
+    margin: 5px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+
+}
+
+.img_gracias:hover {
+    transform: scale(1.04);
+    border: rgb(172, 123, 218) 2px solid;
+}
+
+
+@media(max-width:768px) {
+    .div_transferencia {
+    font-size: 35px;
+}
+
+.div_alias {
+    font-size: 25px;
+    width: 310px;
+
+}
+
+.casillas_donar {
+    width: 345px;
+
+}
+
+.form_donar {
+    height: 690px;
+    width: 400px;
+}
+
+.texto_gracias {
+    font-size: 26px;
+}
+
+.img_tituloG {
+    width: 220px;
+    height: 35px;
+}
+
+.conteiner_imagenes {
+    display: block;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+}
+
+
+/* Fin donar */
+
+
+

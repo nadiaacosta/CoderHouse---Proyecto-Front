@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+//Aplicando lo visto en clase
+
+.form {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: 3px solid rgb(172, 123, 218);
+    background-color: rgb(228, 205, 228);
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+@mixin size($ancho, $alto){
+    width: $ancho;
+    height: $alto;
+}
+
+.form_conteiner {
+   @extend .form;
+   @include size(430px, 830px);
+
+   @media(max-width:768px){
+        max-width: 435px;
+   }
+}
+
+.form_donar {
+    @extend .form;
+    @include size(800px, 385px);
+}
+
+
+
+

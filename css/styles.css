@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.form, .form_donar, .form_conteiner {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border: 3px solid rgb(172, 123, 218);
+  background-color: rgb(228, 205, 228);
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.form_conteiner {
+  width: 430px;
+  height: 830px;
+}
+@media (max-width: 768px) {
+  .form_conteiner {
+    max-width: 435px;
+  }
+}
+
+.form_donar {
+  width: 800px;
+  height: 385px;
+}
+
+.row {
+  margin: 0px;
+  width: 100%;
+}
+.row .col-12 {
+  padding: 0px;
+}
+.row .navbar {
+  box-shadow: 2px 2px 5px rgb(127, 120, 120);
+}
+.row nav {
+  background-color: rgb(172, 123, 218);
+}
+@media (min-width: 768px) {
+  .row nav {
+    max-height: 110px;
+  }
+}
+.row nav ul li a {
+  color: white;
+  margin: 20px;
+  font-size: 25px;
+}
+.row .logo {
+  width: 210px;
+  height: 140px;
+  margin-left: 45px;
+  margin-top: 10px;
+}
+@media (max-width: 768px) {
+  .row .navbar-collapse {
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .row .nav-item {
+    max-height: 70px;
+    font-size: 25px;
+  }
+}
+
+.conteiner_footer {
+  background-color: rgb(172, 123, 218);
+  display: flex;
+  justify-content: center;
+  padding: 10px 10px;
+  box-shadow: 2px 2px 5px 3px rgb(59, 53, 53);
+}
+.conteiner_footer .footer ul {
+  padding: 0px;
+}
+.conteiner_footer .footer ul li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.conteiner_footer .footer p {
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 768px) {
+  .conteiner_footer .footer p {
+    font-size: 18px;
+  }
+}
+.conteiner_footer .footer .conteiner_logos {
+  background-color: rgb(172, 123, 218);
+  display: flex;
+  justify-content: center;
+  padding: 10px 10px;
+}
+.conteiner_footer .footer .logofooter {
+  width: 40px;
+  height: 38px;
+}
+@media (max-width: 768px) {
+  .conteiner_footer .footer .logofooter .logofooter {
+    width: 32px;
+    height: 30px;
+  }
+}
+.conteiner_footer .footer .conteiner_contacto {
+  display: flex;
+  gap: 10px;
+}
+@media (max-width: 768px) {
+  .conteiner_footer .footer .conteiner_contacto {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
